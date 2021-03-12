@@ -1,0 +1,9 @@
+.shop-products-slider__slide {
+  border: 1px solid black;
+  width: 32px;
+  height: 45px;
+}
+.shop-products-slider__image img {
+  width: 32px;
+  height: 45px;
+}

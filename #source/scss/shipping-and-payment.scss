@@ -1,0 +1,109 @@
+.shipping-and-payment {
+	padding: 20px 0 56px 0;
+	background: url('../../img/bg/shipping-and-payments_bg2.svg') no-repeat bottom -126px left 0;
+	&__block-title {
+		margin: 0 0 11px 0;
+	}
+	&__first-side {
+		.shipping-and-payment {
+			&__image {
+				img {
+					width: 40px;
+					height: 40px;
+				}
+			}
+		}
+	}
+	&__second-side {
+		.shipping-and-payment {
+			&__image {
+				img {
+					width: 35px;
+					height: 35px;
+				}
+			}
+		}
+	}
+	&__element {}
+	&__label {
+		margin: 0 0 20px 0;
+		font-weight: bold;
+		font-size: 14px;
+		text-align: center;
+		color: #000000;
+	}
+	&__image {
+		display: flex;
+		justify-content: center;
+		margin: 0 0 22px 0;
+	}
+	&__text {
+		font-size: 12px;
+		line-height: 14px;
+		color: #4D4D4D;
+	}
+	.row {
+		display: grid;
+		grid-template-columns: 200px;
+		justify-content: center;
+		gap: 40px;
+	}
+}
+@media(min-width: 576px) {
+	.shipping-and-payment {
+		background: url('../../img/bg/shipping-and-payments_bg.png') no-repeat,
+		url('../../img/bg/shipping-and-payments_bg2.png') no-repeat bottom -60px left -25px;
+	}
+}
+@media(min-width: 876px) {
+	.shipping-and-payment {
+		padding: 40px 0 115px 0;
+		&__block-title {
+			margin: 0 0 52px 0;
+		}
+		&__first-side {
+			.shipping-and-payment {
+				&__image {
+					img {
+						width: 57px;
+						height: 57px;
+					}
+				}
+			}
+		}
+		&__second-side {
+			.shipping-and-payment {
+				&__image {
+					img {
+						width: 44px;
+						height: 44px;
+					}
+				}
+			}
+		}
+		&__element {
+			display: flex;
+			flex-direction: column;
+			width: 253px;
+		}
+		&__image {
+			margin: 0 auto 15px auto;
+			width: 57px;
+			height: 57px;
+		}
+		&__label {
+			font-size: 18px;
+		}
+		&__text {
+			font-size: 14px;
+			p {
+				margin: 0 0 18px 0;
+			}
+		}
+		.row {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+	}
+}

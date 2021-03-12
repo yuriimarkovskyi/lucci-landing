@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+</head>
+<body>
+	<div class="wrapper">
+<header class="header">
+	<div class="content">
+		<div class="row">
+			<div class="header__logo logo">
+				<img src="img/content/logo.svg" alt="">
+			</div>
+			<div class="header-burger">
+				<span class="icon-menu11"></span>
+				<span class="icon-cross"></span>
+			</div>
+		</div>
+		<nav class="header__menu menu">
+			<ul class="menu__list">
+				<li><a href="#shop" class="menu__link">Характеристики</a></li>
+				<li><a href="#brand-story" class="menu__link">О нас</a></li>
+				<li><a href="#shipping-and-payment" class="menu__link">Доставка и оплата</a></li>
+				<li><a href="#reviews" class="menu__link">Отзывы</a></li>
+				<li><a href="#footer" class="menu__link">Контакты</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>		<main class="main">
+<div class="modal-fade">
+	<div class="modal">
+		<a class="modal-close" href="#">
+			<span class="icon-cross"></span>
+		</a>
+		<form action="#" method="POST" id="order-form" class="order-form">
+			<input name="name" placeholder="Ваше имя*" class="input input-name" required>
+			<input type="tel" name="phone" placeholder="Ваш номер телефона*" class="input input-phone" required>
+			<input type="email" name="email" placeholder="Ваш E-mail" class="input input-email">
+			<button type="submit" class="order-form__button button button--color_red button--color-text_white">Заказать</button>
+		</form>
+	</div>
+</div><section id="shop" class="shop">
+	<div class="content">
+		<div class="row">
+			<div class="shop__first-side">
+				<div class="shop-products-slider-big">
+					<div class="shop-products-slider-big__slide">
+						<div class="shop-products-slider-big__image">
+							<img src="img/content/clothes1.jpg" alt="">
+						</div>
+					</div>
+					<div class="shop-products-slider-big__slide">
+						<div class="shop-products-slider-big__image">
+							<img src="img/content/clothes2.jpg" alt="">
+						</div>
+					</div>
+					<div class="shop-products-slider-big__slide">
+						<div class="shop-products-slider-big__image">
+							<img src="img/content/clothes3.jpg" alt="">
+						</div>
+					</div>
+					<div class="shop-products-slider-big__slide">
+						<div class="shop-products-slider-big__image">
+							<img src="img/content/clothes4.jpg" alt="">
+						</div>
+					</div>
+					<div class="shop-products-slider-big__slide">
+						<div class="shop-products-slider-big__image">
+							<img src="img/content/clothes5.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="shop-products-slider-small">
+					<div class="shop-products-slider-small__slide">
+						<div class="shop-products-slider-small__image">
+							<img src="img/content/clothes1.jpg" alt="">
+						</div>
+					</div>
+					<div class="shop-products-slider-small__slide">
+						<div class="shop-products-slider-small__image">
+							<img src="img/content/clothes2.jpg" alt="">
+						</div>
+					</div>
+					<div class="shop-products-slider-small__slide">
+						<div class="shop-products-slider-small__image">
+							<img src="img/content/clothes3.jpg" alt="">
+						</div>
+					</div>
+					<div class="shop-products-slider-small__slide">
+						<div class="shop-products-slider-small__image">
+							<img src="img/content/clothes4.jpg" alt="">
+						</div>
+					</div>
+					<div class="shop-products-slider-small__slide">
+						<div class="shop-products-slider-small__image">
+							<img src="img/content/clothes5.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="shop__second-side">
+				<div class="shop__product-name">
+					<div class="shop__title">ХУДИ BE THRIVED WHITE</div>
+					<div class="shop__product-availability">Товар в наличии</div>
+				</div>
+				<div class="shop__price">
+					<div class="shop__actual-price">989 uah</div>
+					<div class="shop__old-price">1690 uah</div>
+					<button class="shop__button button button--color_red button--color-text_white modal-open">Купить</button>
+				</div>
+				<div class="shop__size-and-color">
+					<div class="shop__size-blocks">
+						<div class="shop__size">
+							<input id="size-1" type="radio" name="size" value="m" form="order-form">
+							<label for="size-1">M</label>
+						</div>
+						<div class="shop__size">
+							<input id="size-2" type="radio" name="size" value="l" form="order-form">
+							<label for="size-2">L</label>
+						</div>
+						<div class="shop__size">
+							<input id="size-3" type="radio" name="size" value="xl" form="order-form">
+							<label for="size-3">XL</label>
+						</div>
+					</div>
+					<div class="shop-color-slider">
+						<div class="shop-color-slider__slide shop-color-slider__slide--color_blue">
+							<input id="color-1" type="radio" name="color" value="blue" form="order-form">
+							<label for="color-1"></label>
+						</div>
+						<div class="shop-color-slider__slide shop-color-slider__slide--color_red">
+							<input id="color-2" type="radio" name="color" value="red" form="order-form">
+							<label for="color-2"></label>
+						</div>
+						<div class="shop-color-slider__slide shop-color-slider__slide--color_green">
+							<input id="color-3" type="radio" name="color" value="green" form="order-form">
+							<label for="color-3"></label>
+						</div>
+					</div>
+				</div>
+				<div class="shop__product-description">
+					<p>Трикотажная одежда для всей семьи от ведущего производителя. Низкие цены, высокое качество, забота о клиенте.</p>
+					<div class="shop__label">Характеристики:</div>
+					<p>Модель: унисекс;</p>
+					<p>Оверсайз крой</p>
+					<p>Материал: 95% хлопок 5% полиэстер</p>
+					<p>Покрой со спущенными плечами;</p>
+					<p>Большой карман спереди;</p>
+					<p>Всесезонная модель;</p>
+				</div>
+				<div class="shop__information">Отправляем товар Новой Почтой в этот же день</div>
+			</div>
+		</div>
+	</div>
+</section><section id="brand-story" class="brand-story">
+	<div class="content">
+		<div class="row">
+			<div class="brand-story__first-side">
+				<img src="img/content/brand-story-small-img.png" alt="">
+				<img src="img/content/brand-story-big-img.png" alt="">
+			</div>
+			<div class="brand-story__second-side">
+				<div class="brand-story__title">История бренда:</div>
+				<div class="brand-story__text">
+					<p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст..</p>
+					<p>Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section id="shipping-and-payment" class="shipping-and-payment">
+	<div class="content">
+		<div class="shipping-and-payment__block-title block-title">Доставка и оплата:</div>
+		<div class="row">
+			<div class="shipping-and-payment__first-side">
+				<div class="shipping-and-payment__element">
+					<div class="shipping-and-payment__image">
+						<img src="img/content/shipping-and-payment-img1.png" alt="">
+					</div>
+					<div class="shipping-and-payment__label">Оплата картой на сайте</div>
+					<div class="shipping-and-payment__text">
+						<p>Вы можете оплатить заказ онлайн банковской картой Visa и MasterCard без комиссии.</p>
+						<p>Оплата с помощью платежных карт осуществляется следующим способом:</p>
+						<p>Во время оформления заказа на сайте, Вам будет предложено сделать выбор способа оплаты. В графе "Оплата" вам нужно выбрать «Visa/MasterCard».</p>
+					</div>
+				</div>
+			</div>
+			<div class="shipping-and-payment__second-side">
+				<div class="shipping-and-payment__element">
+					<div class="shipping-and-payment__image">
+						<img src="img/content/shipping-and-payment-img2.png" alt="">
+					</div>
+					<div class="shipping-and-payment__label">Наложеный платеж</div>
+					<div class="shipping-and-payment__text">
+						<p>Вы можете оплатить заказ после его получения в службе доставки «Новая почта».</p>
+						<p>При этом способе оплаты вы оплачиваете сумму складывающуюся из:</p>
+						<p>стоимости доставки (страховка, транспортировка) товара по тарифам «Новой почты» (от 40грн);
+						2% от стоимости товара (но не менее 4 грн.) за пересылку наличных денег обратно.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section id="reviews" class="reviews">
+	<div class="content">
+		<div class="reviews__block-title block-title">Отзывы</div>
+		<div class="reviews-slider">
+			<div class="reviews-slider__slide">
+				<div class="reviews-slider__image">
+					<img src="img/content/face.jpg" alt="">
+				</div>
+				<div class="reviews-slider__name">Анатолий Анатолиевич</div>
+				<div class="reviews-slider__rating">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+				</div>
+				<div class="reviews-slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, debitis. Repudiandae, accusantium. Soluta explicabo itaque quia illum, rerum porro molestias saepe provident recusandae dolor laboriosam reiciendis quod, veniam ut, hic.</div>
+			</div>
+			<div class="reviews-slider__slide">
+				<div class="reviews-slider__image">
+					<img src="img/content/face.jpg" alt="">
+				</div>
+				<div class="reviews-slider__name">Анатолий Анатолиевич</div>
+				<div class="reviews-slider__rating">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+				</div>
+				<div class="reviews-slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ex vel labore dolor quo quisquam corrupti, ad perspiciatis quibusdam hic, nam tenetur quidem dolores consequatur, laudantium dicta temporibus omnis esse, repudiandae quas velit ipsa excepturi tempora! Veritatis, reiciendis animi ad pariatur quisquam laboriosam voluptatum, ipsa labore doloribus provident aspernatur, magni!</div>
+			</div>
+			<div class="reviews-slider__slide">
+				<div class="reviews-slider__image">
+					<img src="img/content/face.jpg" alt="">
+				</div>
+				<div class="reviews-slider__name">Анатолий Анатолиевич</div>
+				<div class="reviews-slider__rating">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+				</div>
+				<div class="reviews-slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, debitis. Repudiandae, accusantium. Soluta explicabo itaque quia illum, rerum porro molestias saepe provident recusandae dolor laboriosam reiciendis quod, veniam ut, hic.</div>
+			</div>
+			<div class="reviews-slider__slide">
+				<div class="reviews-slider__image">
+					<img src="img/content/face.jpg" alt="">
+				</div>
+				<div class="reviews-slider__name">Анатолий Анатолиевич</div>
+				<div class="reviews-slider__rating">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+					<img src="img/icon/star.png" alt="">
+				</div>
+				<div class="reviews-slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, debitis. Repudiandae, accusantium. Soluta explicabo itaque quia illum, rerum porro molestias saepe provident recusandae dolor laboriosam reiciendis quod, veniam ut, hic.</div>
+			</div>
+		</div>
+	</div>
+</section>		</main>
+<footer id="footer" class="footer">
+	<div class="content">
+		<div class="row">
+			<div class="footer__first-side">
+				<div class="footer__title">Контакты:</div>
+				<div class="footer__location location">
+					<a href="https://goo.gl/maps/t2PTuXMWEhXQq6D47" target="_blank">
+						вулиця Полковника Кедровського, 1, Херсон, Херсонська область
+					</a>
+				</div>
+				<address class="footer__address address">
+					<a href="tel:380683916211" class="phonecall">+38 (068) 391-62-11</a>
+					<a href="mailto:lucci@gmail.com" class="email">lucci@gmail.com</a>
+				</address>
+			</div>
+			<div class="footer__second-side">
+				<nav class="footer__menu footer-menu">
+					<ul>
+						<li><a href="#shop" class="footer-menu__link">Характеристики</a></li>
+						<li><a href="#brand-story" class="footer-menu__link">О нас</a></li>
+						<li><a href="#shipping-and-payment" class="footer-menu__link">Доставка и оплата</a></li>
+						<li><a href="#reviews" class="footer-menu__link">Отзывы</a></li>
+						<li><a href="#footer" class="footer-menu__link">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</footer>	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
