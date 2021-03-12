@@ -140,14 +140,14 @@
 		width: 26px;
 		height: 31px;
 		&::before {
-			content: url('../../img/icon/arrow-next.svg');
+			content: url('../img/icon/arrow-next.svg');
 		}
 	}
 	.slick-next {
 		width: 26px;
 		height: 31px;
 		&::before {
-			content: url('../../img/icon/arrow-prev.svg');
+			content: url('../img/icon/arrow-prev.svg');
 		}
 	}
 }
@@ -186,14 +186,14 @@
 		top: 44%;
 		left: -16px;
 		&::before {
-			content: url('../../img/icon/arrow-next-small.svg');
+			content: url('../img/icon/arrow-next-small.svg');
 		}
 	}
 	.slick-next {
 		top: 44%;
 		right: -16px;
 		&::before {
-			content: url('../../img/icon/arrow-prev-small.svg');
+			content: url('../img/icon/arrow-prev-small.svg');
 		}
 	}
 }
@@ -203,14 +203,14 @@
 			top: 50%;
 			left: -24px;
 			&::before {
-				content: url('../../img/icon/arrow-prev-big.svg');
+				content: url('../img/icon/arrow-prev-big.svg');
 			}
 		}
 		.slick-next {
 			top: 50%;
 			right: -24px;
 			&::before {
-				content: url('../../img/icon/arrow-next-big.svg');
+				content: url('../img/icon/arrow-next-big.svg');
 			}
 		}
 	}
@@ -220,7 +220,7 @@
 			width: 26px;
 			height: 31px;
 			&::before {
-				content: url('../../img/icon/arrow-prev-small.svg');
+				content: url('../img/icon/arrow-prev-small.svg');
 			}
 		}
 		.slick-next {
@@ -228,7 +228,7 @@
 			width: 26px;
 			height: 31px;
 			&::before {
-				content: url('../../img/icon/arrow-next-small.svg');
+				content: url('../img/icon/arrow-next-small.svg');
 			}
 		}
 	}
@@ -333,14 +333,14 @@
 			top: 50%;
 			left: -24px;
 			&::before {
-				content: url('../../img/icon/arrow-prev-big.svg');
+				content: url('../img/icon/arrow-prev-big.svg');
 			}
 		}
 		.slick-next {
 			top: 50%;
 			right: -24px;
 			&::before {
-				content: url('../../img/icon/arrow-next-big.svg');
+				content: url('../img/icon/arrow-next-big.svg');
 			}
 		}
 	}

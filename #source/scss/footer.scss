@@ -8,7 +8,7 @@
 		left: 50%;
 		transform: translateX(-50%);
 		display: block;
-		content: url('../../img/content/line-small.svg');
+		content: url('../img/content/line-small.svg');
 		margin: 0 auto;
 		width: 157px;
 		height: 1px;
@@ -82,7 +82,7 @@
 		padding: 58px 0;
 		&::after {
 			bottom: 83px;
-			content: url('../../img/content/line-big.svg');
+			content: url('../img/content/line-big.svg');
 			width: 872px;
 			height: 1px;
 		}

@@ -1,6 +1,6 @@
 .shipping-and-payment {
 	padding: 20px 0 56px 0;
-	background: url('../../img/bg/shipping-and-payments_bg2.svg') no-repeat bottom -126px left 0;
+	background: url('../img/bg/shipping-and-payments_bg2.svg') no-repeat bottom -126px left 0;
 	&__block-title {
 		margin: 0 0 11px 0;
 	}
@@ -51,8 +51,8 @@
 }
 @media(min-width: 576px) {
 	.shipping-and-payment {
-		background: url('../../img/bg/shipping-and-payments_bg.png') no-repeat,
-		url('../../img/bg/shipping-and-payments_bg2.png') no-repeat bottom -60px left -25px;
+		background: url('../img/bg/shipping-and-payments_bg.png') no-repeat,
+		url('../img/bg/shipping-and-payments_bg2.png') no-repeat bottom -60px left -25px;
 	}
 }
 @media(min-width: 876px) {
